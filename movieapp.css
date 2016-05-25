@@ -1,0 +1,82 @@
+body {
+  font-family: Georgia;
+  background-image: url("swirl_pattern.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-position: 0 -70px;
+   border: none;
+   display: block;
+   height: 49px;
+   left: 20px;
+   position: absolute;
+   top: 17px;
+   width: 101px;
+   z-index: 10000;
+ }
+
+#container {
+  text-align: center;
+  max-width: 912px;
+  margin: auto;
+}
+
+#search-field, #more-button, #search-button {
+  font-size: 1.6em;
+}
+
+#search-field. #search-button {
+  margin-top: 20px;
+}
+
+#more-button {
+  clear: both;
+}
+
+
+
+#results {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.result {
+  float: left;
+  height: 450px;
+  width: 304px;
+  border: 2px solid white;
+}
+
+.result:hover {
+  border: 2px solid black;
+}
+
+#footer {
+  clear: left;
+}
+
+#details-page {
+  text-align: left;
+}
+
+#details-page label {
+  font-weight: bold;
+}
+
+.poster {
+  float: right;
+}
+
+.result span {
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.result img {
+  max-height: 100%;
+}

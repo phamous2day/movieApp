@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie App</title>
+    <script src="jquery.js"></script>
+    <script src="movieapp.js"></script>
+    <link rel="stylesheet" type="text/css" href="movieapp.css">
+    
+
+
+  </head>
+  <body>
+    <div id="container">
+      <h1>Movie Search</h1>
+      <div id="search-page">
+        <form id="form">
+          <input id="search-field" type="text">
+          <button id="search-button">Search Movies</button>
+        </form>
+        <!-- <a href="http://www.w3schools.com">Best Movies HERE!!!</a> -->
+        <div id="results"></div>
+        <div id="footer">
+          <button id="more-button">More Movies</button>
+        </div>
+      </div>
+      <div id="details-page">
+        <a href="#" id="back-to-search-results">&laquo; Back to search results</a>
+        <img class="poster">
+        <h1 class="title"></h1>
+        <p><label>Actors: </label><span class="actors"></span></p>
+        <p><label>Year: </label><span class="year"></span></p>
+        <p><label>Awards: </label><span class="awards"></span></p>
+        <p><label>Director: </label><span class="director"></span></p>
+        <p><label>Language: </label><span class="language"></span></p>
+        <p><label>Genre: </label><span class="genre"></span></p>
+        <p><label>Rated: </label><span class="rated"></span></p>
+        <p><label>Runtime: </label><span class="runtime"></span></p>
+        <p><label>IMDB Rating: </label><span class="imdb-rating"></span></p>
+        <p><label>IMDB Votes: </label><span class="imdb-votes"></span></p>
+        <p><label>Plot: </label><span class="plot"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
